@@ -1,0 +1,14 @@
+name: ToastedRails
+version: '${project.version}'
+main: toaster.zone.toastedrails.ToastedRails
+api-version: '1.21'
+description: A plugin to make minecarts more viable
+commands:
+  setminecartspeed:
+    description: Sets the speed multiplier for minecarts
+    usage: /setminecartspeed <multiplier>
+    permission: toastedrails.setspeed
+permissions:
+  toastedrails.setspeed:
+    description: Allows setting the minecart speed
+    default: op
